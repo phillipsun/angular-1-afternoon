@@ -17,11 +17,11 @@
           <input class="form-control" placeholder="Search State" ng-model="filters.state">
 
           <select class="input-medium" ng-model="sorts.property">
-            <option>Name</option>
-            <option>#Friends</option>
-            <option>City</option>
-            <option>State</option>
-            <option>Country</option>
+            <option value="name">Name</option>
+            <option value="friend_count">#Friends</option>
+            <option value="location.city">City</option>
+            <option value="location.state">State</option>
+            <option value="location.country">Country</option>
           </select>
 
           <select class="input-medium" ng-model="sorts.direction">
